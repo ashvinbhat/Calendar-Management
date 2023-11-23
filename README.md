@@ -1,4 +1,3 @@
-```markdown
 # Calendar Management System
 
 This is a Calendar Management System built using Streamlit for the frontend and MySQL for the backend database.
@@ -7,8 +6,7 @@ This is a Calendar Management System built using Streamlit for the frontend and 
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Installation and Usage](#installation-and-usage)
 - [Database Structure](#database-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -28,7 +26,7 @@ The Calendar Management System is designed to assist users in managing their cal
 - Custom SQL query execution
 - Update task status using a stored procedure
 
-## Installation
+## Installation and Usage
 
 1. Clone the repository:
 
@@ -39,31 +37,30 @@ The Calendar Management System is designed to assist users in managing their cal
 2. Install the required Python packages:
 
    ```bash
-   pip install -r requirements.txt
+   pip install streamlit
+   pip install mysql-connector-python
    ```
 
 3. Set up your MySQL database and configure the connection in the code.
 
-## Usage
-
-1. Run the Streamlit app:
+4. Run the Streamlit app:
 
    ```bash
    streamlit run app.py
    ```
 
-2. Use the web interface to sign up or log in and start managing your calendar, events, tasks, and notes.
+5. Use the web interface to sign up or log in and start managing your calendar, events, tasks, and notes.
 
 ## Database Structure
 
 The database structure includes the following tables:
 
-- `USER`: Stores user information
-- `CALENDAR`: Stores calendar details
-- `EVENTS`: Stores event-related information
-- `TASK`: Stores task-related information
-- `NOTES`: Stores note-related information
-- `COLLABORATION`: Stores information about collaborations between users and tasks
+- USER: Stores user information
+- CALENDAR: Stores calendar details
+- EVENTS: Stores event-related information
+- TASK: Stores task-related information
+- NOTES: Stores note-related information
+- COLLABORATION: Stores information about collaborations between users and tasks
 
 ## Contributing
 
@@ -77,6 +74,4 @@ Contributions are welcome! If you want to contribute to this project, follow the
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
+This project is licensed under the MIT License - see the LICENSE file for details.
