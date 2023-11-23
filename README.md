@@ -1,5 +1,3 @@
-Creating a README file for your GitHub repository is essential to provide users with information about your project. Here's an example template that you can use and modify according to your project specifics:
-
 ```markdown
 # Calendar Management System
 
@@ -82,6 +80,3 @@ Contributions are welcome! If you want to contribute to this project, follow the
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-Modify the sections, placeholders, and instructions based on your project specifics, installation steps, and how you'd like to guide users in setting up and using your Calendar Management System. This README template covers essential aspects, including installation, usage, database structure, contributing guidelines, and licensing information.
-
-Replace placeholders like `your-username` with your actual GitHub username or organization and update other sections with relevant details about your project.
